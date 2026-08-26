@@ -1,17 +1,33 @@
 aid: on-me
 name: On Me
-description: 'On Me is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'On Me is a San Francisco digital gifting company that sells wallet-native,
+  multi-brand eGift cards organised by hobby and interest rather than by single retailer.
+  Founded by former Google product managers Darragh Meaney and Sitar Harel, it emerged
+  from stealth in December 2024 with a five-year Mastercard partnership and $1.7M in
+  pre-seed funding led by Lerer Hippeau and Focal VC. Recipients add a gift to Apple
+  Wallet or Google Wallet and tap to pay across a curated category of brands, and senders
+  can attach photos, video and GIFs. A business portal supports corporate gifting,
+  campaigns and bulk sends. On Me markets a forthcoming Gifting API for programmatic
+  rewards, incentives and webhooks, but as of this pass no public API reference, base
+  URL, or machine-readable specification is published — access runs through a "talk to
+  a specialist" sales conversation.'
 url: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+image: https://onme.com/assets/headers/onmeOpenGraphDefault.webp
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Gift Cards
+- Digital Gifting
+- Corporate Gifting
+- Rewards and Incentives
+- Payments
+- Mobile Wallet
+- Employee Recognition
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,52 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/on-me-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://onme.com/
+- type: Blog
+  url: https://onme.com/blog
+- type: HelpCenter
+  url: https://onme.com/help
+- type: Support
+  url: mailto:support@onme.com
+- type: SignUp
+  url: https://onme.com/login
+- type: TermsOfService
+  url: https://onme.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://onme.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/onmegifting
+- type: Plans
+  url: plans/on-me-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/on-me-rate-limits.yml
+- type: LLMsTxt
+  url: llms/on-me-llms.txt
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    On Me's only API surface is a marketing page at /corporate-gift-cards/gifting-api that
+    describes the Gifting API entirely in the future tense and offers "Talk to a specialist /
+    Book a call" instead of a reference — there is no developer portal, no base URL, and no
+    spec on onme.com, business.onme.com or the company GitHub org.
+  evidence:
+    - url: https://onme.com/corporate-gift-cards/gifting-api
+      status: 200
+    - url: https://onme.com/developers
+      status: 404
+    - url: https://onme.com/openapi.json
+      status: 404
+    - url: https://business.onme.com/openapi.json
+      status: 404
+    - url: https://onme.com/.well-known/agent-card.json
+      status: 404
+  checked: '2026-08-26'

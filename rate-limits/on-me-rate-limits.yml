@@ -1,0 +1,32 @@
+name: On Me — published rate limits
+generated: '2026-08-26'
+method: searched
+source: https://onme.com/corporate-gift-cards/gifting-api (HTTP 200) and the full onme.com sitemap (2,744
+  URLs), searched 2026-08-26
+limit_count: 0
+note: On Me publishes no rate limits. There is no developer portal, no API reference and no machine-readable
+  specification anywhere on onme.com or business.onme.com, so there is nothing that states a quota, a
+  window, a burst allowance, a 429 behaviour, or any RateLimit-*/X-RateLimit-*/Retry-After response header.
+  The Gifting API marketing page describes the API in the future tense ("Teams will be able to issue gifts
+  programmatically") and states only that the API "is designed to be retry-safe, so duplicate requests
+  do not accidentally create duplicate charges" — an idempotency claim, not a rate limit. Nothing here
+  is derived or assumed; this is a recorded absence.
+limits: []
+response_headers: []
+exhaustion_status_code: null
+related_claims:
+- claim: retry-safe / duplicate requests do not create duplicate charges
+  kind: idempotency (marketing prose, no header or key documented)
+  source: https://onme.com/corporate-gift-cards/gifting-api
+- claim: sandbox keys to test the full flow before going live
+  kind: sandbox (announced, not documented; no key format or endpoint published)
+  source: https://onme.com/corporate-gift-cards/gifting-api
+evidence:
+- url: https://onme.com/corporate-gift-cards/gifting-api
+  status: 200
+- url: https://onme.com/developers
+  status: 404
+- url: https://onme.com/docs
+  status: 404
+- url: https://onme.com/openapi.json
+  status: 404

@@ -64,5 +64,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-On Me is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+On Me (On Me Gifting, Inc.) is a San Francisco digital gifting company selling wallet-native, multi-brand eGift cards organised by hobby and interest rather than by a single retailer. It emerged from stealth in December 2024 with a five-year Mastercard partnership and $1.7M in pre-seed funding led by Lerer Hippeau with Focal VC. On Me markets a forthcoming Gifting API for programmatic rewards and incentives, but publishes no developer portal, API reference, base URL or machine-readable specification — access runs through a sales conversation.
+
+- https://onme.com/
+- https://onme.com/corporate-gift-cards/gifting-api
+- https://github.com/onmegifting

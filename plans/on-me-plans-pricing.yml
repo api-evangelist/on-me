@@ -1,0 +1,36 @@
+name: On Me — plans and pricing
+generated: '2026-08-26'
+method: searched
+source: https://onme.com/corporate-gift-cards (HTTP 200) and https://onme.com/corporate-gift-cards/gifting-api
+  (HTTP 200), fetched 2026-08-26
+docs: https://onme.com/corporate-gift-cards
+plan_count: 0
+note: 'On Me publishes NO tiered plan or pricing page — https://onme.com/pricing returns HTTP 404 and
+  no plans/tiers appear anywhere in the sitemap. The business surface is stated as self-serve and free
+  to start: the corporate gifting page advertises "$0 platform fees", "No lengthy onboarding. No contracts.
+  Just a few clicks", "Try it free" and "No credit card required". Revenue is affiliate/commission based:
+  the site footer states On Me "earn[s] a commission when you redeem your gift card at a partner merchant.
+  This does not affect the value of your gift or the price you pay." Buyers pay the face value of the
+  gift. There is no published API pricing; the Gifting API page routes to "Talk to a specialist / Book
+  a call".'
+plans: []
+commercial_model:
+  platform_fee: $0 platform fees (stated on https://onme.com/corporate-gift-cards)
+  contract_required: false
+  credit_card_required_to_start: false
+  revenue_source: merchant commission on redemption, per the on-site disclosure
+  api_pricing: not published — sales-gated ("Talk to a specialist", https://onme.com/corporate-gift-cards/gifting-api)
+product_limits:
+- limit: maximum card balance
+  value: USD 500 per On Me card
+  note: Balances cannot be combined above $500; larger purchases require a split payment.
+  source: https://onme.com/help/what-is-the-maximum-card-balance
+evidence:
+- url: https://onme.com/pricing
+  status: 404
+- url: https://onme.com/corporate-gift-cards
+  status: 200
+- url: https://onme.com/corporate-gift-cards/gifting-api
+  status: 200
+- url: https://onme.com/help/what-is-the-maximum-card-balance
+  status: 200

@@ -1,0 +1,69 @@
+# On Me
+
+> On Me (On Me Gifting, Inc., San Francisco) is a digital gifting platform selling wallet-native,
+> multi-brand eGift cards organised by hobby and interest rather than by a single retailer. A
+> recipient adds the gift to Apple Wallet or Google Wallet and taps to pay across any brand in that
+> category. Cards are issued by Sutton Bank, Member FDIC. The company emerged from stealth in
+> December 2024 with a five-year Mastercard partnership and $1.7M in pre-seed funding led by Lerer
+> Hippeau with Focal VC, co-founded by former Google product managers Darragh Meaney (CEO) and
+> Sitar Harel.
+
+## API status (measured 2026-08-26)
+
+On Me markets a **Gifting API** at https://onme.com/corporate-gift-cards/gifting-api for
+programmatic rewards, incentives, catalog browsing, order creation, delivery by email/SMS/link,
+lifecycle status events and webhooks. As of this pass that page is written in the future tense
+("Teams **will be able to** issue gifts programmatically") and is the only API surface On Me
+publishes. There is:
+
+- no developer portal (https://onme.com/developers -> 404)
+- no API reference or docs site (https://onme.com/docs -> 404; no api./docs./developer. subdomain resolves)
+- no machine-readable specification (no OpenAPI, AsyncAPI, GraphQL SDL or Postman collection found
+  on onme.com, business.onme.com, or the company GitHub org)
+- no published base URL, authentication scheme, rate limits, scopes or error catalog
+- nothing served under /.well-known/ on either host (all paths 404)
+
+Access is gated behind a sales conversation ("Talk to a specialist / Book a call"). This file
+records what is publicly reachable; nothing about the API is inferred or invented.
+
+## Company
+
+- Website: https://onme.com/
+- Our story: https://onme.com/about-us
+- Blog: https://onme.com/blog
+- Careers: https://onme.com/careers
+- GitHub organization: https://github.com/onmegifting
+- LinkedIn: https://www.linkedin.com/company/onmegifting
+
+## Products
+
+- Consumer gifting: https://onme.com/shop-gift-cards — 70+ multi-brand category cards
+- Brand directory: https://onme.com/brands
+- Gift feed / inspiration: https://onme.com/inspiration
+- Corporate gifting: https://onme.com/corporate-gift-cards
+- Business portal: https://business.onme.com/ — campaigns, bulk sends, delivery + redemption tracking
+- Gifting API (announced, sales-gated): https://onme.com/corporate-gift-cards/gifting-api
+- iOS app: https://apps.apple.com/us/app/on-me-personalized-gift-cards/id6459658949
+- Android app: https://play.google.com/store/apps/details?id=com.onme.gifting
+
+## Commercial model
+
+- $0 platform fees; no contract and no credit card required to start the business portal
+- No published plan tiers — https://onme.com/pricing returns 404
+- Revenue comes from merchant commission on redemption, disclosed in the site footer
+- Maximum balance on an On Me card is USD 500 (https://onme.com/help/what-is-the-maximum-card-balance)
+
+## Support and policies
+
+- Help center: https://onme.com/help
+- Support email: support@onme.com
+- Terms of service: https://onme.com/terms-of-service
+- Business terms of service: https://onme.com/business-terms-of-service
+- Cardholder agreement: https://onme.com/cardholder-agreement
+- Privacy policy: https://onme.com/privacy-policy
+
+## Provenance
+
+Generated: 2026-08-26
+Method: generated — assembled by API Evangelist from On Me's own public pages and live probes.
+Not published by On Me. On Me serves no /llms.txt (https://onme.com/llms.txt -> 404).
