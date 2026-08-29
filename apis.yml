@@ -12,6 +12,9 @@ description: 'On Me is a San Francisco digital gifting company that sells wallet
   URL, or machine-readable specification is published — access runs through a "talk to
   a specialist" sales conversation.'
 url: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "On Me markets a forthcoming Gifting API for programmatic rewards, incentives and webhooks, but as of this pass no public API reference, base URL, or machine-readable specification is published — acces"
 x-type: company
 x-source: harvest:secondary-market
 deliveryModel:
