@@ -14,6 +14,17 @@ description: 'On Me is a San Francisco digital gifting company that sells wallet
 url: https://raw.githubusercontent.com/api-evangelist/on-me/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://onme.com/assets/headers/onmeOpenGraphDefault.webp
 specificationVersion: '0.20'
 created: '2026-08-26'
