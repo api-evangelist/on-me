@@ -64,8 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-On Me (On Me Gifting, Inc.) is a San Francisco digital gifting company selling wallet-native, multi-brand eGift cards organised by hobby and interest rather than by a single retailer. It emerged from stealth in December 2024 with a five-year Mastercard partnership and $1.7M in pre-seed funding led by Lerer Hippeau with Focal VC. On Me markets a forthcoming Gifting API for programmatic rewards and incentives, but publishes no developer portal, API reference, base URL or machine-readable specification — access runs through a sales conversation.
+On Me is a San Francisco digital gifting company that sells wallet-native, multi-brand eGift cards organised by hobby and interest rather than by single retailer. Founded by former Google product managers Darragh Meaney and Sitar Harel, it emerged from stealth in December 2024 with a five-year Mastercard partnership and $1.7M in pre-seed funding led by Lerer Hippeau and Focal VC. Recipients add a gift to Apple Wallet or Google Wallet and tap to pay across a curated category of brands, and senders can attach photos, video and GIFs. A business portal supports corporate gifting, campaigns and bulk sends. On Me markets a forthcoming Gifting API for programmatic rewards, incentives and webhooks, but as of this pass no public API reference, base URL, or machine-readable specification is published — access runs through a "talk to a specialist" sales conversation.
 
-- https://onme.com/
-- https://onme.com/corporate-gift-cards/gifting-api
-- https://github.com/onmegifting
+**Areas:** Company · Gift Cards · Digital Gifting · Corporate Gifting · Rewards and Incentives · Payments · Mobile Wallet · Employee Recognition · Consumer
+
+## On Me on APIs.io
+
+Everything profiled for On Me is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/on-me/](https://apis.io/providers/on-me/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [On Me Domain Security](https://apis.io/security/on-me/on-me-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [On Me Plans Pricing](https://apis.io/plans/on-me/on-me-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [On Me Rate Limits](https://apis.io/rate-limits/on-me/on-me-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://onme.com/)
+- [Sign up](https://onme.com/login)
+- [Blog](https://onme.com/blog)
+- [Terms of service](https://onme.com/terms-of-service)
+- [Privacy policy](https://onme.com/privacy-policy)
+- [GitHub](https://github.com/onmegifting)
+
+## API Evangelist rating
+
+**Kin Score 13.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/on-me/](https://apis.io/providers/on-me/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for On Me: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/on-me/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
